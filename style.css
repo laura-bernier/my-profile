@@ -1,0 +1,105 @@
+body {
+   background-color: #FFFFFF;
+   color: #002941;
+   font-family: arial, sans-serif;
+   font-weight: 100px;
+}
+h1, h2{
+    font-family: "Poppins", sans-serif;
+    padding: 0% auto;
+}
+h1 {
+ text-decoration: none;
+ color: white;
+ font-weight: 600px;
+ margin: auto;
+}
+h2 {
+ font-weight : 400
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   color: rgb(242, 170, 240);
+}
+.container {
+   margin: 15px auto;
+   text-align: center;
+   width : 800px;
+}
+
+@media (max-width : 800px){
+   .container {
+      width: 700px;
+      }
+}
+
+@media (max-width : 700px){
+   .container {
+      width: 600px;
+      }
+}
+
+@media (max-width : 550px){
+   .container {
+      width: 450px;
+      }
+}
+#banner h1 {
+   background:url("images/fond.jpg");
+   border-bottom:3px solid #91E3FF;
+   color: white;
+   height: 50px;
+}
+
+.img-circle {
+   max-width: 250px;
+   width: 200px;
+   margin : 0px auto;
+   border-radius: 10%;
+   height: auto;
+}
+
+.card-white {
+    background: ghostwhite;
+    padding: 40px;
+    margin : 10px auto;
+    box-shadow : 0px 2px 3px rgba(30, 30, 30, 0.5);
+    border-bottom : 3px solid rgb(242, 170, 240);
+}
+.card-blue {
+    background:#002941;
+    padding: 40px;
+    margin : 10px auto;
+    box-shadow : 2px 2px 30px rgba(30, 30, 30, 0.5);
+    border-bottom : 3px dotted #91E3FF;
+    color: white; 
+}
+
+.btn-blue {
+background-color: #91E3FF;
+color: #002941;
+padding: 5px 10px;
+}
+.btn-blue:hover {
+   color: ghostwhite
+  } 
+
+.list-inline {
+   list-style: none;
+   display: inline;
+   padding: 0%;
+}
+
+.list-inline li {
+   display: inline;
+   padding : 10px;
+   gap: 25px;
+} 
+
+.list-inline i {
+   font-size: 26px;
+   } 
