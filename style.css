@@ -104,6 +104,6 @@ padding: 5px 10px;
 .list-inline i {
    font-size: 26px;
    } 
-.list-inline i:hover {
+.list-inline li:hover {
    color: #91E3FF;
    } 
